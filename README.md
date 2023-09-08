@@ -41,30 +41,14 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-base-binary4d
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var binary4d = require( '@stdlib/array-base-binary4d' );
+import binary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-binary4d@deno/mod.js';
 ```
 
 #### binary4d( arrays, shape, fcn )
@@ -72,8 +56,8 @@ var binary4d = require( '@stdlib/array-base-binary4d' );
 Applies a binary callback to elements in four-dimensional nested input arrays and assigns results to elements in a four-dimensional nested output array.
 
 ```javascript
-var add = require( '@stdlib/math-base-ops-add' );
-var zeros4d = require( '@stdlib/array-base-zeros4d' );
+import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
+import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@deno/mod.js';
 
 var x = [ [ [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] ] ];
 var z = zeros4d( [ 1, 1, 2, 2 ] );
@@ -111,11 +95,11 @@ The function accepts the following arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
-var filled4dBy = require( '@stdlib/array-base-filled4d-by' );
-var zeros4d = require( '@stdlib/array-base-zeros4d' );
-var add = require( '@stdlib/math-base-ops-add' );
-var binary4d = require( '@stdlib/array-base-binary4d' );
+var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
+import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@deno/mod.js';
+import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@deno/mod.js';
+import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
+import binary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-binary4d@deno/mod.js';
 
 var shape = [ 2, 2, 3, 3 ];
 
@@ -153,7 +137,7 @@ console.log( z );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
