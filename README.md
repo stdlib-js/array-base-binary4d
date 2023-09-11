@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Apply a binary callback to elements in four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.
+> Apply a binary callback to elements in two four-dimensional nested input arrays and assign results to elements in a four-dimensional nested output array.
 
 <section class="intro">
 
@@ -69,7 +69,7 @@ var binary4d = require( '@stdlib/array-base-binary4d' );
 
 #### binary4d( arrays, shape, fcn )
 
-Applies a binary callback to elements in four-dimensional nested input arrays and assigns results to elements in a four-dimensional nested output array.
+Applies a binary callback to elements in two four-dimensional nested input arrays and assigns results to elements in a four-dimensional nested output array.
 
 ```javascript
 var add = require( '@stdlib/math-base-ops-add' );
