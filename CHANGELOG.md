@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-08)
+## Unreleased (2025-12-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`34c2666`](https://github.com/stdlib-js/stdlib/commit/34c2666e48e25c5a508aeae1337f666a3b404684) - **bench:** refactor to use string interpolation in `array/base/binary4d` [(#8804)](https://github.com/stdlib-js/stdlib/pull/8804) _(by Kate Suraev)_
 -   [`4535885`](https://github.com/stdlib-js/stdlib/commit/453588520ecebd68ae1c7f730ac16b206d0f0760) - **test:** fix test descriptions to use ordinal numbers correctly _(by Philipp Burckhardt)_
 -   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
 -   [`a147b7d`](https://github.com/stdlib-js/stdlib/commit/a147b7d6ef754925120fcc7bdec2b40842a3615a) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
@@ -27,9 +28,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Gururaj Gurram
+-   Kate Suraev
 -   Philipp Burckhardt
 
 </section>
